@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section id="#about" className="bg-white py-20 px-6 md:px-16 lg:px-32 text-gray-800">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-extrabold mb-6">About Kingdom Prevailers</h2>
+        <h2 className="text-4xl text-purple-600 font-extrabold mb-6">About Kingdom Prevailers</h2>
         <p className="text-lg leading-relaxed mb-6">
           Kingdom Prevailers International Christian Centre is a vibrant and welcoming community
           committed to the transformational power of the Gospel. Founded on the principles of faith,

@@ -6,7 +6,7 @@ const Events = () => {
   return (
     <section id="events" className="bg-white py-14 px-6 md:px-16 lg:px-32 text-gray-800">
       <div className="max-w-7xl mx-auto pb-20">
-        <h2 className="text-5xl font-extrabold text-center pb-20 text-gray-900">Upcoming Events</h2>
+        <h2 className="text-5xl font-extrabold text-center text-purple-600 pb-20">Upcoming Events</h2>
 
         <div className="grid gap-20 sm:grid-cols-2 lg:grid-cols-3">
           {events.map(({ title, date, time, location, description }) => (

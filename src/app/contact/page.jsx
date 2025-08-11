@@ -88,18 +88,6 @@ const ContactPage = () => {
                 </p>
               </div>
             </div>
-
-            {/* <div className="mt-10">
-              <iframe
-                title="Church Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!..."
-                width="100%"
-                height="250"
-                className="rounded-lg border border-purple-300 shadow-md"
-                allowFullScreen=""
-                loading="lazy"
-              ></iframe>
-            </div> */}
           </div>
         </div>
       </div>
