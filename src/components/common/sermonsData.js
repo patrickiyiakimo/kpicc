@@ -32,12 +32,12 @@ const sermons = [
       "Celebrate God’s faithfulness through inspiring testimonies and heartfelt thanksgiving for answered prayers and miracles.",
   },
   {
-    id: "WSyrvcUvaR8",
-    title: "THE WONDERS OF WORD APPLICATION",
+    id: "5_b8YU1qwy4",
+    title: "OPEN ALTAR SERVICE",
     speaker: "Pastor Chris Abraham",
-    date: "24TH APRIL, 2025",
+    date: "20TH JULY, 2025",
     summary:
-      "Learn practical ways to apply God’s Word daily, unlocking its power to transform your life and circumstances.",
+      "Join us for a powerful open altar service where lives will be transformed through prayer and prophetic declarations.",
   },
   {
     id: "vp34ljd-8jE",
@@ -47,6 +47,25 @@ const sermons = [
     summary:
       "Explore the limitless possibilities that faith opens up and how to live boldly in God’s promises.",
   },
+  {
+    id: "zLARqWxT-WM",
+    title: "WORD ENCOUNTER",
+    speaker: "Pastor Chris Abraham",
+    date: "1ST MAY, 2025",
+    summary:
+      "Join us for a powerful word encounter service where lives will be transformed through prayer and prophetic declarations.",
+  },
+  {
+    id: "WSyrvcUvaR8",
+    title: "THE WONDERS OF WORD APPLICATION",
+    speaker: "Pastor Chris Abraham",
+    date: "24TH APRIL, 2025",
+    summary:
+      "Learn practical ways to apply God’s Word daily, unlocking its power to transform your life and circumstances.",
+  },
 ];
 
 export default sermons;
+
+//
+

@@ -23,12 +23,6 @@ const Hero = () => {
 
         <div className="flex justify-center space-x-6">
           <a
-            href="/about"
-            className="px-8 py-3 bg-yellow-400 text-purple-900 font-semibold rounded-md shadow-lg hover:bg-yellow-300 transition"
-          >
-            Learn More
-          </a>
-          <a
             href="/contact"
             className="px-8 py-3 border border-yellow-400 text-yellow-400 font-semibold rounded-md hover:bg-yellow-400 hover:text-purple-900 transition"
           >

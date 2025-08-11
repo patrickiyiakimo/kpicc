@@ -102,7 +102,7 @@ const Ministries = () => {
     <section className="bg-white py-24 px-6 md:px-16 lg:px-32 text-gray-800">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-14">Our Ministries</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {ministries.map(({ title, description, icon }) => (
             <div
               key={title}

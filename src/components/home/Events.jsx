@@ -1,36 +1,10 @@
 import React from "react";
 import { FaCalendarAlt, FaClock, FaMapMarkerAlt } from "react-icons/fa";
-
-const events = [
-  {
-    title: "3rd Year Anniversary",
-    date: "October 15, 2025",
-    time: "9:00 AM - 11:00 AM",
-    location: "Main Sanctuary",
-    description:
-      "Join us for a powerful thanksgiving service to celebrate God's abundant blessings throughout the year. Experience heartfelt worship and inspiring messages.",
-  },
-  {
-    title: "Youth Retreat",
-    date: "November 10-12, 2025",
-    time: "All day",
-    location: "Mountain View Campgrounds",
-    description:
-      "A weekend of fellowship, worship, and spiritual growth for youth ages 13-25. Activities include workshops, outdoor games, and worship nights.",
-  },
-  {
-    title: "Christmas Carol Service",
-    date: "December 20, 2025",
-    time: "6:00 PM - 9:00 PM",
-    location: "Church Grounds",
-    description:
-      "Celebrate the birth of Jesus with joyful carols, scripture readings, and community fellowship. Bring your family and friends!",
-  },
-];
+import events from "../common/eventsData";
 
 const Events = () => {
   return (
-    <section id="events" className="bg-white py-20 px-6 md:px-16 lg:px-32 text-gray-800">
+    <section id="events" className="bg-white py-14 px-6 md:px-16 lg:px-32 text-gray-800">
       <div className="max-w-7xl mx-auto pb-20">
         <h2 className="text-5xl font-extrabold text-center pb-20 text-gray-900">Upcoming Events</h2>
 

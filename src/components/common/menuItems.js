@@ -1,7 +1,7 @@
 const menuItems = [
-  { name: "About Us", href: "/about" },
-  { name: "Sermons", href: "/sermons" },
-  { name: "Events", href: "/events" },
+  // { name: "About Us", href: "/about" },
+  // { name: "Sermons", href: "/sermons" },
+  // { name: "Events", href: "/events" },
   { name: "Contact", href: "/contact" },
 ];
 
