@@ -22,7 +22,7 @@ const Footer = () => {
                 Home
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/about" className="hover:text-yellow-400 transition">
                 About Us
               </a>
@@ -36,7 +36,7 @@ const Footer = () => {
               <a href="/events" className="hover:text-yellow-400 transition">
                 Events
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="/contact" className="hover:text-yellow-400 transition">
                 Contact
