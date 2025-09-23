@@ -34,7 +34,7 @@ const JoinUsOnline = () => {
         <div className="flex-1 relative">
           <div className="rounded-2xl bg-gradient-to-br from-purple-500 via-purple-600 to-indigo-500 p-2 w-full">
             <img
-              src="/images/join-us-online.webp" // Replace with your actual image
+              src="/images/online.webp" // Replace with your actual image
               alt="Join us online"
               className="w-full h-auto rounded-2xl shadow-2xl object-cover transform transition-transform hover:scale-105"
             />
