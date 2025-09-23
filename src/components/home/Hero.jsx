@@ -53,7 +53,7 @@ const Hero = () => {
     <section
       className="relative flex flex-col lg:flex-row items-center pt-20 text-white overflow-hidden pb-24 md:pb-12" 
       style={{
-        backgroundImage: "url('/images/kpicc-hero.avif')",
+        backgroundImage: "url('/images/kpicc-hero-image.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "100vh",

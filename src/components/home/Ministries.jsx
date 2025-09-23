@@ -5,7 +5,7 @@ const ministries = [
     title: "Youth Ministry",
     description:
       "Empowering young people through relevant teachings, mentorship, and community events to become future leaders rooted in faith.",
-    image: "/images/youth-ministry.avif",
+    image: "/images/youth.webp",
   },
   {
     title: "Women’s Ministry",
@@ -17,7 +17,7 @@ const ministries = [
     title: "Prayer Ministry",
     description:
       "Dedicated to intercession and lifting the needs of the church and community in fervent, faith-filled prayer.",
-    image: "/images/prayer-ministry.avif",
+    image: "/images/prayer.webp",
   },
   {
     title: "Men’s Ministry",
@@ -29,7 +29,7 @@ const ministries = [
     title: "Children’s Ministry",
     description:
       "Providing a safe, fun, and spiritually enriching environment for children to learn about God's love and grow in faith.",
-    image: "/images/children-ministry.avif",
+    image: "/images/children.webp",
   },
 ];
 
