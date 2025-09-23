@@ -1,11 +1,14 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import SermonCard from "./SermonCard";
 import sermons from "../common/sermonsData";
 
 const Sermons = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const sermonsPerPage = 6;
+
+  // Ref to scroll to
+  const sectionRef = useRef(null);
 
   // Calculate indexes for pagination
   const indexOfLastSermon = currentPage * sermonsPerPage;
@@ -14,18 +17,41 @@ const Sermons = () => {
 
   const totalPages = Math.ceil(sermons.length / sermonsPerPage);
 
+  // Scroll helper with offset
+  const scrollToTop = () => {
+    if (sectionRef.current) {
+      const offset = 50; // space above the heading
+      window.scrollTo({
+        top: sectionRef.current.offsetTop - offset,
+        behavior: "smooth",
+      });
+    }
+  };
+
   const handleNext = () => {
-    if (currentPage < totalPages) setCurrentPage((prev) => prev + 1);
+    if (currentPage < totalPages) {
+      setCurrentPage((prev) => prev + 1);
+      scrollToTop();
+    }
   };
 
   const handlePrev = () => {
-    if (currentPage > 1) setCurrentPage((prev) => prev - 1);
+    if (currentPage > 1) {
+      setCurrentPage((prev) => prev - 1);
+      scrollToTop();
+    }
   };
 
   return (
-    <section id="sermons" className="bg-white py-24 px-6 md:px-16 lg:px-32 text-gray-800">
+    <section
+      id="sermons"
+      ref={sectionRef}
+      className="bg-white py-24 px-6 md:px-16 lg:px-32 text-gray-800"
+    >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-purple-600 mb-14">Sermon Highlights</h2>
+        <h2 className="text-5xl font-extrabold text-center text-purple-600 mb-14">
+          Sermon Highlights
+        </h2>
 
         {/* Sermons Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-5xl mx-auto">

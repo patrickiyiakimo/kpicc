@@ -1,4 +1,5 @@
 import React from "react";
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,21 +23,6 @@ const Footer = () => {
                 Home
               </a>
             </li>
-            {/* <li>
-              <a href="/about" className="hover:text-yellow-400 transition">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="/sermons" className="hover:text-yellow-400 transition">
-                Sermons
-              </a>
-            </li>
-            <li>
-              <a href="/events" className="hover:text-yellow-400 transition">
-                Events
-              </a>
-            </li> */}
             <li>
               <a href="/contact" className="hover:text-yellow-400 transition">
                 Contact
@@ -50,13 +36,22 @@ const Footer = () => {
           <h4 className="text-white text-lg font-semibold mb-4">Contact Us</h4>
           <p>39 Road, 3rd Avenue Gwarimpa, Abuja, Nigeria</p>
           <p>Email: info@kingdomprevailers.org</p>
-          <p>Phone: +234 *** *** ****</p>
+          {/* <p>Phone: +234 *** *** ****</p> */}
         </div>
 
         {/* Social Media */}
         <div>
           <h4 className="text-white text-lg font-semibold mb-4">Follow Us</h4>
           <div className="flex space-x-4">
+               <a
+              href="https://youtube.com/kingdomprevailers"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="hover:text-yellow-400 transition"
+            >
+             <FaYoutube className="w-7 h-7 fill-current" />
+            </a>
             <a
               href="https://facebook.com/kingdomprevailers"
               target="_blank"

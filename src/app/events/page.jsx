@@ -1,22 +1,19 @@
 "use client";
 
-import Link from "next/link";
+import { events } from "@/components/common/eventsData";
 import React from "react";
 import { FaCalendarAlt, FaClock, FaMapMarkerAlt } from "react-icons/fa";
-import { events } from "../common/eventsData";
 
-const Events = () => {
-  const upcomingEvents = events.slice(0, 6);
-
+const EventsPage = () => {
   return (
-    <section id="events" className="bg-black py-14 px-6 md:px-16 lg:px-32 text-gray-100">
-      <div className="max-w-7xl mx-auto pb-20">
-        <h2 className="text-5xl font-extrabold text-center text-purple-500 pb-16">
-          Upcoming KPICC Events
+    <section className="bg-gray-50 py-20 px-6 md:px-16 lg:px-32 text-gray-800">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-5xl font-extrabold text-center text-purple-600 pb-16">
+          All KPICC Events
         </h2>
 
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          {upcomingEvents.map(({ title, date, time, location, description, image }, idx) => (
+          {events.map(({ title, date, time, location, description, image }, idx) => (
             <article
               key={idx}
               className="bg-white text-gray-800 shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-2 overflow-hidden rounded-xl"
@@ -55,16 +52,9 @@ const Events = () => {
             </article>
           ))}
         </div>
-
-        <Link
-          href="/events"
-          className="mt-12 inline-block text-center bg-purple-600 hover:bg-purple-700 text-white py-3 px-5 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-300"
-        >
-          View All Events
-        </Link>
       </div>
     </section>
   );
 };
 
-export default Events;
+export default EventsPage;

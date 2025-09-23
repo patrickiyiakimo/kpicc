@@ -1,17 +1,33 @@
+"use client";
+
 import React from "react";
 import { FaEnvelope, FaMapPin, FaPhone } from "react-icons/fa";
 
 const ContactPage = () => {
   return (
-    <section className="relative bg-gradient-to-br from-purple-50 via-white to-purple-100 py-20">
-      <div className="max-w-7xl mx-auto px-4 lg:px-8">
+    <section className="bg-gradient-to-br from-purple-50 via-white to-purple-100 py-20">
+      <div className="max-w-7xl mx-auto px-4 lg:px-8 space-y-16">
         {/* Heading */}
-        <div className="text-center mb-16">
+        <div className="text-center">
           <h2 className="text-5xl font-extrabold text-purple-900">Get in Touch</h2>
           <p className="mt-6 text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
             Whether you have questions, testimonies, or prayer requests, our doors and hearts are
             open to you. Reach out to us anytime.
           </p>
+        </div>
+
+        {/* Google Map */}
+        <div className="w-full h-96 rounded-2xl overflow-hidden shadow-lg">
+          <iframe
+            title="KPICC Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.971052286857!2d7.37772047591789!3d9.047246293358436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0a6bbf8c121b%3A0x7e8d6f7c6d4a59b1!2s39%20Road%2C%203rd%20Avenue%2C%20Gwarimpa%2C%20Abuja%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1695500000000!5m2!1sen!2sng"
+            width="100%"
+            height="100%"
+            allowFullScreen=""
+            loading="lazy"
+            className="border-0"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
         {/* Grid Layout */}
@@ -76,7 +92,7 @@ const ContactPage = () => {
               <div className="space-y-6">
                 <p className="flex items-start">
                   <FaMapPin className="w-6 h-6 text-yellow-300 mr-3 flex-shrink-0" />
-                  39 Road 3rd Avenue, Gwarimpa, Abuja, Nigeria
+                  39 Road, 3rd Avenue, Gwarimpa, Abuja, Nigeria
                 </p>
                 <p className="flex items-start">
                   <FaPhone className="w-6 h-6 text-yellow-300 mr-3 flex-shrink-0" />
@@ -93,6 +109,6 @@ const ContactPage = () => {
       </div>
     </section>
   );
-}
+};
 
 export default ContactPage;
