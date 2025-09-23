@@ -94,10 +94,10 @@ const ContactPage = () => {
                   <FaMapPin className="w-6 h-6 text-yellow-300 mr-3 flex-shrink-0" />
                   39 Road, 3rd Avenue, Gwarimpa, Abuja, Nigeria
                 </p>
-                <p className="flex items-start">
+                {/* <p className="flex items-start">
                   <FaPhone className="w-6 h-6 text-yellow-300 mr-3 flex-shrink-0" />
                   +234 *** *** ****
-                </p>
+                </p> */}
                 <p className="flex items-start">
                   <FaEnvelope className="w-6 h-6 text-yellow-300 mr-3 flex-shrink-0" />
                   info@kingdomprevailers.org
