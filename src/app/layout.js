@@ -16,7 +16,10 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "KPICC",
-  description: "Welcome to KPICC – a vibrant community where faith, fellowship, and impactful events come together to inspire, uplift, and connect people from all walks of life. Join us for worship, youth activities, conferences, and celebrations of God's faithfulness."
+  description: "Welcome to KPICC – a vibrant community where faith, fellowship, and impactful events come together to inspire, uplift, and connect people from all walks of life. Join us for worship, youth activities, conferences, and celebrations of God's faithfulness.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 
