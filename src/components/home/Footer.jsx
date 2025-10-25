@@ -58,7 +58,7 @@ const Footer = () => {
              <FaYoutube className="w-7 h-7 fill-current" />
             </a>
             <a
-              href="https://facebook.com/kingdomprevailers"
+              href="https://www.facebook.com/share/1EWnKA2q4r/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -73,11 +73,11 @@ const Footer = () => {
               </svg>
             </a>
 
-            <a
-              href="https://twitter.com/kingdomprevailers"
+           <a
+              href="https://www.tiktok.com/@kingdomprevailers?_t=ZS-90APPmsbkgq&_r=1"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Twitter"
+              aria-label="TikTok"
               className="hover:text-yellow-400 transition"
             >
               <svg
@@ -85,12 +85,13 @@ const Footer = () => {
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M24 4.557a9.93 9.93 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.95.564-2.005.974-3.127 1.195a4.92 4.92 0 0 0-8.384 4.482A13.951 13.951 0 0 1 1.671 3.15a4.917 4.917 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616v.06a4.919 4.919 0 0 0 3.946 4.827 4.935 4.935 0 0 1-2.224.084 4.926 4.926 0 0 0 4.6 3.417A9.866 9.866 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.209c9.056 0 14.009-7.513 14.009-14.009 0-.213-.004-.425-.014-.636A10.012 10.012 0 0 0 24 4.557z" />
+                <path d="M12.75 2h3.25a5.75 5.75 0 0 0 5.75 5.75v3.25a8.99 8.99 0 0 1-5.5-1.84v7.34a7.5 7.5 0 1 1-7.5-7.5c.26 0 .52.02.77.04V12a3.75 3.75 0 1 0 3.75 3.75V2z" />
               </svg>
             </a>
 
+
             <a
-              href="https://instagram.com/kingdomprevailers"
+              href="https://www.instagram.com/kingdomprevailers_?igsh=M3ZpY3NzOWc1eW1y"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
