@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaYoutube } from "react-icons/fa";
 
@@ -7,7 +8,11 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* About */}
         <div>
-          <h3 className="text-white text-xl font-semibold mb-4">Kingdom Prevailers</h3>
+          <div className="flex items-center mb-4">
+          <Image src="/images/IMG_6680.jpg" alt="kpicc image" width={30} height={30} className="rounded-full"/>
+          <h3 className="text-white text-xl font-semibold pl-2">Kingdom Prevailers</h3>
+          </div>
+        
           <p className="text-gray-400 leading-relaxed">
             Kingdom Prevailers International Christian Centre is committed to nurturing faith, hope,
             and love in our community.
@@ -44,7 +49,7 @@ const Footer = () => {
           <h4 className="text-white text-lg font-semibold mb-4">Follow Us</h4>
           <div className="flex space-x-4">
                <a
-              href="https://youtube.com/kingdomprevailers"
+              href="https://www.youtube.com/@kingdomprevailersinternational"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"

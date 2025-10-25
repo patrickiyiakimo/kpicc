@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaBars, FaTimes, FaBible } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -39,7 +40,7 @@ export default function Navbar() {
             whileHover={{ rotate: [0, 15, -10, 0], scale: 1.1 }}
             transition={{ duration: 0.6 }}
           >
-            <FaBible className="text-yellow-400 text-2xl" />
+            <Image src="/images/IMG_6680.jpg" alt="kpicc image" width={30} height={30} className="rounded-full"/>
           </motion.div>
           <div>
             <span className="text-2xl font-bold text-white drop-shadow-lg">
